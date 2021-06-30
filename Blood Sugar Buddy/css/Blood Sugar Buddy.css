@@ -12,4 +12,10 @@ h2 {
   color: lavenderblush;
   text-align: center;
   font-size: medium;
+
+  h3 {
+    color: lavenderblush;
+    text align: center;
+    font-size: medium;
+  }
 }
