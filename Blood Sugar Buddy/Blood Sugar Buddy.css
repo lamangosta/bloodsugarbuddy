@@ -12,9 +12,10 @@ h2 {
   color: greenyellow;
   text-align: center;
   font-size: medium;
+}
 
   h3 {
     color: red;
-    text align: center;
+    text-align: center;
     font-size: medium;
   }
