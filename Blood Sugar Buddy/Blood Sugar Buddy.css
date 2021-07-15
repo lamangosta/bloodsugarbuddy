@@ -4,12 +4,12 @@ body {
 
 h1 {
     color: blue;
-    text-align: center;
-    font-size: large;
+    text-align:center;
+    font-size: medium;
 }
 
 h2 {
-  color: greenyellow;
+  color: green;
   text-align: center;
   font-size: medium;
 }
@@ -19,3 +19,10 @@ h2 {
     text-align: center;
     font-size: medium;
   }
+
+  li {
+    color: green;
+    font-size: 24;
+    text-align:center; 
+  }
+
