@@ -15,24 +15,61 @@
        <link rel="stylesheet" type="text/css" href="Blood Sugar Buddy.css"/>
        
 </head>
+
 <body>
 <div class="container-fluid"></div>
     <h1>Blood Sugar Buddy</h1>
         <p id= "para">Welcome to Blood Sugar Buddy</p>
-        <button onclick="changeColor('blue');">red</button>
-        <button onclick="changeColor('red');">blue</button>
-            <h2>Keep the Momentum</h2>
-                <h3>You've got this!</h3>
-                    <h4>Food Groups</h4>
-<ul>                        
-                    <li> Carbs</li>
-                    <li>Proteins</li>
-                    <li>Fats</li> 
+        <button onclick="changeColor('blue');">Enter Your Blood Sugar Reading Here</button>
+
+        <div></div>
+<!--added paragraph to h2-->  
+        
+        <h2>Keep the Momentum</h2>
+        <p>It can can be difficult to eat right on a daily basis, or when stressed. 
+           Blood Sugar Body is here to help you. If your blood sugar is too high, or if it is too low, 
+           Blood Sugar Buddy is here to get you on track. You've got this!!!</p>
+                
+        <h3>Food Groups</h3>
+ <div>                   
+<ul>
+        <li>Carbs</li>
+        <li>Proteins</li> 
+        <li>Fats</li>
 </ul>
+</div>
+
+
+<!--added form to html-->
+<h4>To Request More Information Enter Your Information Below</h4>
+<div>
+    <form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname">
+<div>
+
+    <label for="phonenumber">Phone number:</label><br>
+    <input type="text" id="phonenumber" name="phonenumber">
+</div>    
+<div>    
+    <label for="email">Enter Your Email address:</label><br>
+    <input type="email" id="email" name="email">
+    <input type="submit" value="Submit">
+</div>    
+  </form>
+  </div>
+
+
 <div></div>           
 
 <script src="Blood Sugar Buddy.js"></script>
 
-    
+  
 </body>                                      
 </html>
+
+
+
+<footer>&#169 Blood Sugar Buddy</footer>

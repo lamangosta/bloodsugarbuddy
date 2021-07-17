@@ -1,17 +1,20 @@
 body {
-  background-color: orange;
+  background-color: gray;
 }
 
 h1 {
     color: blue;
     text-align:center;
-    font-size: medium;
+    font-size: medium
+    
+    
 }
 
 h2 {
-  color: green;
+  color: purple;
   text-align: center;
   font-size: medium;
+  justify-self: left;
 }
 
   h3 {
@@ -20,10 +23,15 @@ h2 {
     font-size: medium;
   }
 
-  li {
+h4 {
     color: green;
-    font-size: 24;
-    text-align:center; 
- 
+    font-size: 24pt;
+    text-align: center;
+}
 
-
+ul li {
+    color: green;
+    font-size: 24pt;
+    text-align: center; 
+  
+  }

@@ -9,17 +9,15 @@
    //.then (data => console.log(data))
 
 var button = document.getElementById("button")
-var button = document.getElementById()
+var button = document.getElementById("button")
 
-function changeColor(red) {
-    var button = document.getElementById('button');
-    button.style.color = blue;
-  }
 
   function changeColor(blue) {
     var button = document.getElementById('button');
     button.style.color = red;
   }
+
+  document.addEventListener("click", someOtherFunction);
 
 
   
