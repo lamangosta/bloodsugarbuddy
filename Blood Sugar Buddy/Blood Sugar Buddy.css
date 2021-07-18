@@ -20,7 +20,10 @@ h2 {
   h3 {
     color: red;
     text-align: center;
-    font-size: medium;
+    font-size: 2em;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
   }
 
 h4 {

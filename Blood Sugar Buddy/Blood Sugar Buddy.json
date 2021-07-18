@@ -1,0 +1,29 @@
+{
+    "highNumber":300, 
+    “lowNumber”: "80",
+    “isHigh”: true,
+    “eatThis”: ["Eggs",“Lean Meat”, “ Leafy Greens”]
+    }
+
+{
+    “highNumber”: "455", 
+    “lowNumber”: "75",
+    “isHigh”: true,
+    “eatThis”: [“Grilled Chicken”, “Leafy Salad”, “Light Dressing”],
+    },
+
+    {    
+    “highNumber”: "350", 
+    “lowNumber”: "80",
+    “isLow”: true,
+    “eatThis”: [“Potato”, “Protein”, “Orange Juice”]
+    },
+    
+    {
+    “highNumber”: "600", 
+    “lowNumber”: "70",
+    “isLow”: true,
+    “eatThis”: [“Banana”, “Fat Free Milk”, “Raisins”]
+    },
+]
+    
